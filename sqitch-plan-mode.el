@@ -96,16 +96,12 @@
 (if sqitch-plan-mode-map
     nil
   (setq sqitch-plan-mode-map (make-sparse-keymap))
-  (define-key sqitch-plan-mode-map (kbd "C-c d") 'sqitch-plan-find-deploy-script)
   (define-key sqitch-plan-mode-map (kbd "C-c C-d") 'sqitch-plan-find-deploy-script)
 
-  (define-key sqitch-plan-mode-map (kbd "C-c v") 'sqitch-plan-find-verify-script)
   (define-key sqitch-plan-mode-map (kbd "C-c C-v") 'sqitch-plan-find-verify-script)
 
-  (define-key sqitch-plan-mode-map (kbd "C-c r") 'sqitch-plan-find-revert-script)
   (define-key sqitch-plan-mode-map (kbd "C-c C-r") 'sqitch-plan-find-revert-script)
 
-  (define-key sqitch-plan-mode-map (kbd "C-c t") 'sqitch-plan-find-test-script)
   (define-key sqitch-plan-mode-map (kbd "C-c C-t") 'sqitch-plan-find-test-script))
 
 (defvar sqitch-plan-highligts nil "first element for `font-lock-defaults'")

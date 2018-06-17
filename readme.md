@@ -34,15 +34,11 @@ for a given changeset, as well as jump to the appropriate
 
 Keybinding      | Description
 ----------------|---------------------
-<kbd>C-c d</kbd>| Jump to corresponding "deploy" script
-<kbd>C-c v</kbd>| Jump to corresponding "verify" script
-<kbd>C-c r</kbd>| Jump to corresponding "revert" script
-<kbd>C-c t</kbd>| Jump to corresponding "test" script
-<kbd>C-c p</kbd>| Jump to `sqitch.plan` file
-
-As a convenience, additional <kbd>C-c C-</kbd> bindings are also provided. That
-is, <kbd>C-c d</kbd> and <kbd>C-c C-d</kbd> are both bound to
-`sqitch-find-deploy-script`, and so on.
+<kbd>C-c C-d</kbd>| Jump to corresponding "deploy" script
+<kbd>C-c C-v</kbd>| Jump to corresponding "verify" script
+<kbd>C-c C-r</kbd>| Jump to corresponding "revert" script
+<kbd>C-c C-t</kbd>| Jump to corresponding "test" script
+<kbd>C-c C-p</kbd>| Jump to `sqitch.plan` file
 
 ## `sqitch-plan-mode`
 
@@ -53,15 +49,10 @@ list), it allows you to jump directly to the `deploy`, `verify`, and
 
 Keybinding      | Description
 ----------------|---------------------
-<kbd>C-c d</kbd>| Jump to "deploy" script for changeset at point
-<kbd>C-c v</kbd>| Jump to "verify" script for changeset at point
-<kbd>C-c r</kbd>| Jump to "revert" script for changeset at point
-<kbd>C-c t</kbd>| Jump to "test" script for changeset at point
-
-As with `sqitch-mode`, additional <kbd>C-c C-</kbd> bindings are also
-provided. That is, <kbd>C-c d</kbd> and <kbd>C-c C-d</kbd> are both
-bound to `sqitch-plan-find-deploy-script`, and so on.
-
+<kbd>C-c C-d</kbd>| Jump to "deploy" script for changeset at point
+<kbd>C-c C-v</kbd>| Jump to "verify" script for changeset at point
+<kbd>C-c C-r</kbd>| Jump to "revert" script for changeset at point
+<kbd>C-c C-t</kbd>| Jump to "test" script for changeset at point
 
 ## TODO
 
